@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: RayChi
+Version: 0.1.9
+Summary: A Taichi-Powered Ray Tracer
+Author: Fluid Gravity Accelerated Solutions
+Author-email: fluidgravityaccelerations@gmail.com
+License-File: LICENSE.md

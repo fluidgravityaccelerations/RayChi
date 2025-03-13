@@ -1,0 +1,2 @@
+[console_scripts]
+raychi = raychi.cli:main
