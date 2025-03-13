@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+gifrom setuptools import setup, find_packages
 
 setup(
     name="RayChi",
