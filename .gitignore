@@ -1,0 +1,65 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+venv/
+.env/
+.venv/
+pip-log.txt
+
+# --- Taichi Specific ---
+# Taichi cache and intermediate files
+*.tcm/
+*.tcb/
+*.ll
+*.bc
+*.spv
+*.metal
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# --- OS Generated ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Logs and Databases ---
+*.log
+*.sqlite
+*.sql
+*.dump
+
+# --- Test Output ---
+.coverage
+htmlcov/
+test-results.xml
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Local Configs ---
+local_settings.py
+taichiray_config.local.json
+
+# --- Packaging ---
+*.whl
+*.tar.gz
+*.egg
+
+# --- Benchmark Results ---
+benchmarks/output/
+*.profile

@@ -1,10 +1,27 @@
-# TaichiRay
+# RayChi
+RayChi: A Taichi-Powered Ray Tracer
 
-TaichiRay is a ray tracer built using Taichi. It is designed to be installed as a Python package and used either via import or directly from the command line.
+![Rendering Example](https://github.com/fluidgravityaccelerations/RayChi/blob/main/raychiRenderingExample.png) 
+*(Above is a RayChi rendering example)*
+
+A GPU-accelerated ray tracer built with Taichi Lang. Supports ambient occlusion, direct lighting, reflective/refractive materials, and configurable scenes.
+
+## Features
+
+- 🚀 GPU-accelerated rendering using Taichi
+- 🌟 Multiple material types (diffuse, metal, dielectric, emissive)
+- 💡 Direct lighting and ambient occlusion
+- 🖼 Configurable scene setup via JSON
+- 📦 CLI and Python API interfaces
 
 ## Installation
 
-Clone the repository and run:
+### Prerequisites
+- Python 3.7+
+- [Taichi](https://taichi-lang.org/) (will be installed automatically)
 
+### Install from source
 ```bash
+git clone https://github.com/fluidgravityaccelerations/RayChi.git
+cd RayChi
 pip install .
