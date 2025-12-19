@@ -1,1 +1,1 @@
-# RayChi
+# RayChi - Experiments with the Mitsuba library
